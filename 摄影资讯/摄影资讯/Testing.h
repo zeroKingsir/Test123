@@ -10,4 +10,6 @@
 
 @interface Testing : NSObject
 
+@property (nonatomic,strong) NSString *btn;
+
 @end
