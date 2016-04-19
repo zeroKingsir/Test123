@@ -159,6 +159,8 @@
 		4ED53CC51C4CC8440075B930 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53CB91C4CC8440075B930 /* UMSShareListController.xib */; };
 		4ED53CC61C4CC8440075B930 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4ED53CBA1C4CC8440075B930 /* UMSocialSDKResourcesNew.bundle */; };
 		8118115C1CC5B9AF00B0B938 /* Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8118115B1CC5B9AF00B0B938 /* Testing.m */; };
+		811811681CC5C6C700B0B938 /* TestOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 811811671CC5C6C700B0B938 /* TestOne.m */; };
+		8118116B1CC5C7B700B0B938 /* TestTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8118116A1CC5C7B700B0B938 /* TestTwo.m */; };
 		81FFC1141C81C0BA00E0E11E /* 摄影.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FFC1131C81C0BA00E0E11E /* 摄影.png */; };
 /* End PBXBuildFile section */
 
@@ -431,6 +433,10 @@
 		4ED53CBB1C4CC8440075B930 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
 		8118115A1CC5B9AF00B0B938 /* Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
 		8118115B1CC5B9AF00B0B938 /* Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testing.m; sourceTree = "<group>"; };
+		811811661CC5C6C700B0B938 /* TestOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOne.h; sourceTree = "<group>"; };
+		811811671CC5C6C700B0B938 /* TestOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOne.m; sourceTree = "<group>"; };
+		811811691CC5C7B700B0B938 /* TestTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwo.h; sourceTree = "<group>"; };
+		8118116A1CC5C7B700B0B938 /* TestTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwo.m; sourceTree = "<group>"; };
 		81FFC1131C81C0BA00E0E11E /* 摄影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "摄影.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -479,6 +485,10 @@
 		4ED53B051C4CC51D0075B930 /* 摄影资讯 */ = {
 			isa = PBXGroup;
 			children = (
+				811811661CC5C6C700B0B938 /* TestOne.h */,
+				811811671CC5C6C700B0B938 /* TestOne.m */,
+				811811691CC5C7B700B0B938 /* TestTwo.h */,
+				8118116A1CC5C7B700B0B938 /* TestTwo.m */,
 				4ED53B0A1C4CC51D0075B930 /* AppDelegate.h */,
 				4ED53B0B1C4CC51D0075B930 /* AppDelegate.m */,
 				4ED53B101C4CC51D0075B930 /* ViewController.h */,
@@ -1123,6 +1133,7 @@
 				4ED53C551C4CC81A0075B930 /* DLLRUCache.m in Sources */,
 				4ED53C3F1C4CC8050075B930 /* UIProgressView+AFNetworking.m in Sources */,
 				4ED53BDF1C4CC7560075B930 /* SceneMGViewController.m in Sources */,
+				811811681CC5C6C700B0B938 /* TestOne.m in Sources */,
 				4ED53C9E1C4CC8370075B930 /* UIImageView+HighlightedWebCache.m in Sources */,
 				4ED53BD91C4CC7560075B930 /* FigureViewController.m in Sources */,
 				4ED53C021C4CC7D10075B930 /* RootViewController.m in Sources */,
@@ -1133,6 +1144,7 @@
 				4ED53C581C4CC81A0075B930 /* DLFixedTabbarView.m in Sources */,
 				4ED53C3B1C4CC8050075B930 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				4ED53B121C4CC51D0075B930 /* ViewController.m in Sources */,
+				8118116B1CC5C7B700B0B938 /* TestTwo.m in Sources */,
 				4ED53BE01C4CC7560075B930 /* SkillViewController.m in Sources */,
 				4ED53C731C4CC82D0075B930 /* UIScrollView+MJRefresh.m in Sources */,
 				4ED53C6F1C4CC82D0075B930 /* MJRefreshConst.m in Sources */,
