@@ -10,6 +10,8 @@
 
 @interface Testing : NSObject
 
-@property (nonatomic,strong) NSString *btn;
+@property (nonatomic,copy) NSString *btn;
+@property (nonatomic,copy) NSInteger lab;
+@property (nonatomic,assign) long long num;
 
 @end
